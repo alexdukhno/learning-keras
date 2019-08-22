@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# Ignore raw dataset
+cifar-10-batches-py/
+input/
+
+# Ignore any saved trained networks
+*.hdf5
